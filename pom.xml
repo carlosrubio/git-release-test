@@ -22,4 +22,11 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
+  
+  <scm>
+	<connection>scm:git:https://github.com/carlosrubio/git-release-test.git</connection>
+	<url>scm:git:https://github.com/carlosrubio/git-release-test.git</url>
+	<developerConnection>scm:git:https://github.com/carlosrubio/git-release-test.git</developerConnection>
+  </scm>
+  
 </project>
