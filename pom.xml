@@ -41,7 +41,7 @@
 		<repository>
 			<id>Appverse-Actifacts-Repository</id>
 			<name>Appverse Artifacts Repository</name>
-			<url>http://deployer:deployer123@localhost:9091/nexus/content/repositories/releases/</url>
+			<url>http://localhost:9091/nexus/content/repositories/releases/</url>
 		</repository>
 	</distributionManagement>
 </project>
