@@ -3,7 +3,7 @@
 
   <groupId>org.appverse.web.testprojects</groupId>
   <artifactId>git-release-test</artifactId>
-  <version>1.6-SNAPSHOT</version>
+  <version>1.6</version>
   <packaging>jar</packaging>
 
   <name>git-release-test</name>
@@ -35,7 +35,7 @@
 	<connection>scm:git:https://carlosrubio@github.com/carlosrubio/git-release-test.git</connection>
 	<url>scm:git:https://carlosrubio@github.com/carlosrubio/git-release-test.git</url>
 	<developerConnection>scm:git:https://carlosrubio@github.com/carlosrubio/git-release-test.git</developerConnection>
-    <tag>git-release-test-1.2</tag>
+    <tag>git-release-test-1.6</tag>
   </scm>
   	<distributionManagement>
 		<repository>
