@@ -37,5 +37,11 @@
 	<developerConnection>scm:git:https://carlosrubio@github.com/carlosrubio/git-release-test.git</developerConnection>
     <tag>git-release-test-1.2</tag>
   </scm>
-  
+  	<distributionManagement>
+		<repository>
+			<id>Appverse-Actifacts-Repository</id>
+			<name>Appverse Artifacts Repository</name>
+			<url>http://deployer:deployer123@localhost:9091/nexus/content/repositories/releases/</url>
+		</repository>
+	</distributionManagement>
 </project>
