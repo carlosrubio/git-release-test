@@ -32,16 +32,15 @@
     </plugins>
   </build>
   <scm>
-	<connection>scm:git:https://carlosrubio@github.com/carlosrubio/git-release-test.git</connection>
-	<url>scm:git:https://carlosrubio@github.com/carlosrubio/git-release-test.git</url>
-	<developerConnection>scm:git:https://carlosrubio@github.com/carlosrubio/git-release-test.git</developerConnection>
-    <tag>git-release-test-1.2</tag>
+	<connection>scm:git:https://github.com/carlosrubio/git-release-test.git</connection>
+	<url>scm:git:https://github.com/carlosrubio/git-release-test.git</url>
+	<developerConnection>scm:git:https://github.com/carlosrubio/git-release-test.git</developerConnection>
   </scm>
   	<distributionManagement>
 		<repository>
 			<id>Appverse-Actifacts-Repository</id>
 			<name>Appverse Artifacts Repository</name>
-			<url>http://localhost:9091/nexus/content/repositories/releases/</url>
+			<url>http://localhost:9091/nexus/content/repositories/releases</url>
 		</repository>
 	</distributionManagement>
 </project>
