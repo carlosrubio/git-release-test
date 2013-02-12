@@ -31,11 +31,17 @@
       </plugin>
     </plugins>
   </build>
-  <scm>
+  <!--scm>
 	<connection>scm:git:https://github.com/carlosrubio/git-release-test.git</connection>
 	<url>scm:git:https://github.com/carlosrubio/git-release-test.git</url>
 	<developerConnection>scm:git:https://github.com/carlosrubio/git-release-test.git</developerConnection>
-  </scm>
+  </scm-->
+  
+      <scm>
+        <connection>scm:git:git@github.com:carlosrubio/git-release-test.git</connection>
+        <developerConnection>scm:git:git@github.com:carlosrubio/git-release-test.git</developerConnection>
+        <url>scm:git:git@github.com:carlosrubio/git-release-test/</url>
+    </scm>
   	<distributionManagement>
 		<repository>
 			<id>Appverse-Actifacts-Repository</id>
