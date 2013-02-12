@@ -3,7 +3,7 @@
 
   <groupId>org.appverse.web.testprojects</groupId>
   <artifactId>git-release-test</artifactId>
-  <version>1.10</version>
+  <version>1.11-SNAPSHOT</version>
   <packaging>jar</packaging>
 
   <name>git-release-test</name>
@@ -41,7 +41,7 @@
         <connection>scm:git:git@github.com:carlosrubio/git-release-test.git</connection>
         <developerConnection>scm:git:git@github.com:carlosrubio/git-release-test.git</developerConnection>
         <url>scm:git:git@github.com:carlosrubio/git-release-test/</url>
-      <tag>git-release-test-1.10</tag>
+      <tag>HEAD</tag>
   </scm>
   	<distributionManagement>
 		<repository>
