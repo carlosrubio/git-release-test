@@ -9,6 +9,12 @@
   <name>git-release-test</name>
   <url>http://maven.apache.org</url>
 
+  <parent>
+      <groupId>org.sonatype.oss</groupId>
+      <artifactId>oss-parent</artifactId>
+      <version>7</version>
+  </parent>
+
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
@@ -47,7 +53,7 @@
 		<repository>
 			<id>Appverse-Actifacts-Repository</id>
 			<name>Appverse Artifacts Repository</name>
-			<url>https://repository-appverseweb-ci.forge.cloudbees.com/release</url>
+			<url>https://oss.sonatype.org/service/local/staging/deploy/maven2</url>
 		</repository>
 	</distributionManagement>
 </project>
