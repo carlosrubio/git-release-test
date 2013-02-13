@@ -47,7 +47,7 @@
 		<repository>
 			<id>Appverse-Actifacts-Repository</id>
 			<name>Appverse Artifacts Repository</name>
-			<url>https://carlosrubio:gmhrq7dw@repository-appverseweb-ci.forge.cloudbees.com/release</url>
+			<url>https://repository-appverseweb-ci.forge.cloudbees.com/release</url>
 		</repository>
 	</distributionManagement>
 </project>
