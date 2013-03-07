@@ -17,7 +17,7 @@
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    <gpg.passphrase>Appverse_79</gpg.passphrase>
+    <!--gpg.passphrase>Appverse_79</gpg.passphrase-->
   </properties>
 
   <dependencies>
@@ -52,7 +52,7 @@
         <connection>scm:git:git@github.com:carlosrubio/git-release-test.git</connection>
         <developerConnection>scm:git:git@github.com:carlosrubio/git-release-test.git</developerConnection>
         <url>scm:git:git@github.com:carlosrubio/git-release-test/</url>
-      <tag>git-release-test-1.14</tag>
+      <tag>git-release-test-2.0-BETA-1</tag>
   </scm>
   	<!--distributionManagement>
 		<repository>
